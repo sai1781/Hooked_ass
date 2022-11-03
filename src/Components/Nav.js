@@ -33,7 +33,7 @@ const Nav = _ => {
             }
         })()
     }
-    }, [clicked])
+    }, [clicked,value])
 
     useEffect(_ =>{
         if(trigger === false){
